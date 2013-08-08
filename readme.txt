@@ -6,7 +6,7 @@
    Mail: bugra.ozden@gmail.com
    Site: bugraozden.com
    
-   ![alt tag](http://bugraozden.com/images/thumbnails/png.hittest.js.png)
+   ![alt text](http://bugraozden.com/images/thumbnails/png.hittest.js.png "Optional title")
 
 
    You are free:
