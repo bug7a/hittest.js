@@ -4,9 +4,9 @@
    Year: 10 Oct 2012
    Autor: Buğra ÖZDEN
    Mail: bugra.ozden@gmail.com
-   Site: bugraozden.com
+   Site: http://bugraozden.com
    
-   ![alt text](http://bugraozden.com/images/thumbnails/png.hittest.js.png "Optional title")
+   ![alt tag](http://bugraozden.com/images/thumbnails/png.hittest.js.png)
 
 
    You are free:
