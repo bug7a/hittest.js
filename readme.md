@@ -1,10 +1,10 @@
-   Code: PNG HitTest JS
-   Version: 1.0
+   Code: PNG HitTest JS<br />
+   Version: 1.0<br /><br />
 
-   Year: 10 Oct 2012
-   Autor: Buğra ÖZDEN
-   Mail: bugra.ozden@gmail.com
-   Site: http://bugraozden.com
+   Year: 10 Oct 2012<br />
+   Autor: Buğra ÖZDEN<br />
+   Mail: bugra.ozden@gmail.com<br />
+   Site: http://bugraozden.com<br />
    
    ![alt tag](http://bugraozden.com/images/thumbnails/png.hittest.js.png)
 
