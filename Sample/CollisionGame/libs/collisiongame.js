@@ -62,26 +62,20 @@ CollisionGame.init = function(){
 
             //Area
             if( CollisionGame.circularHitTest.toArea( CollisionGame.gameAreaElement ) ) {
-
                 CollisionGame.startGame();
-
             }
 
             //Star
             if( CollisionGame.circularHitTest.toObject( CollisionGame.starObjectElement ) ) {
-
                 CollisionGame.score += 2500;
                 document.getElementById( CollisionGame.GAME_SCORE_TEXT_ELEMENT_ID ).innerHTML = CollisionGame.score;
                 $( "#" + CollisionGame.STAR_OBJECT_ELEMENT_ID).hide();
-
             }
 
             //Key
             if( CollisionGame.circularHitTest.toObject( CollisionGame.keyObjectElement ) ) {
-
                 $( "#" + CollisionGame.KEY_OBJECT_ELEMENT_ID).hide();
                 $( "#" + CollisionGame.WALL_OBJECT_ELEMENT_ID).hide();
-
             }
 
             //Wall

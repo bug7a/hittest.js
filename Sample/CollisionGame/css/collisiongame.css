@@ -29,32 +29,28 @@
 
 #star-object {
     position: absolute;
-    top:203px;
-    left:399px;
-    width: 50px;
-    height: 50px;
+    top:231px;
+    left:838px;
 }
 
 #key-object {
     position: absolute;
-    top:203px;
-    left:623px;
-    width: 60px;
-    height: 60px;
+    top:401px;
+    left:404px;
 }
 
 #finish-object {
     position: absolute;
-    top:187px;
-    left:852px;
+    top:613px;
+    left:265px;
     width: 120px;
     height: 120px;
 }
 
 #wall-object {
     position: absolute;
-    top:609px;
-    left:565px;
+    top:613px;
+    left:539px;
 }
 
 #game-count {
