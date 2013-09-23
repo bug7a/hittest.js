@@ -1,3 +1,11 @@
+hittest.js
+==============
+
+Javascript hitTest on tranparent PNG with collision detection game sample
+
+![alt tag](http://bugraozden.com/images/thumbnails/open-source/png.hittest.js.png)
+
+
    Code: PNG HitTest JS<br />
    Version: 1.0<br />
 
