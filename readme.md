@@ -14,8 +14,7 @@ Javascript hitTest on tranparent PNG with collision detection game sample
    Mail: bugra.ozden@gmail.com<br />
    Site: http://bugraozden.com<br />
    
-   ![alt tag](http://bugraozden.com/images/thumbnails/png.hittest.js.png)
-
+   
 
    You are free:<br />
 
