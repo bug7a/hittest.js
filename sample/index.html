@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+    <title>Collision Game</title>
+    
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+	<script src="js/ui/jquery.ui.touch-punch.js"></script>
+	
+    <link rel="stylesheet" href="css/collisiongame.css" />
+    <script type="text/javascript" src="libs/collisiongame.js"></script>
+    <script type="text/javascript" src="js/hittest.js"></script>
+
+</head>
+
+<body>
+
+<div id="main-window" >
+
+    <div id="game-background">
+        <img id="game-background-down" src="images/background.down.png" width="1024" height="768" />
+    </div>
+
+    <div id="game-container">
+        <img id="game-background-up" src="images/background.up.png" width="1024" height="768" />
+    </div>
+
+    <img id="finish-object" src="images/finish.png" />
+    <img id="star-object" src="images/star.png" />
+    <img id="key-object" src="images/key.png" />
+    <img id="wall-object" src="images/wall.png" />
+    <img id="game-circular" src="images/object.png" />
+
+    <div id="game-count">
+        <div class="game-box-title"><h1>Time</h1>
+            <div class="game-box-text"><h3><div id="game-count-text" >0</div></h3></div>
+        </div>
+    </div>
+
+    <div id="game-life">
+        <div class="game-box-title"><h1>Life</h1>
+            <div class="game-box-text"><h3><div id="game-life-text" >3</div></h3></div>
+        </div>
+    </div>
+
+    <div id="game-score">
+        <div class="game-box-title"><h1>Score</h1>
+            <div class="game-box-text"><h3><div id="game-score-text" >1200</div></h3></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hittest.js</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <meta name="keywords" content="hittest, collision detection, png, javascript, image">
+        <meta name="description" content="Transparan PNG resim üzerinde kesişim algılama">
+        <meta name="author" content="Bugra OZDEN">
+        
+        <style>
+            
+            @font-face {
+                font-family: Corbel;
+                src: url(font/corbel.ttf);
+            }
+            
+            body {
+                font-family: Corbel;
+                margin: 0px;
+                padding: 0px;
+                top:0px;
+                right: 0px;
+                left: 0px;
+                bottom: 0px;
+            }
+            
+            a {
+                
+            }
+            
+            a:hover {
+                color:#D1570D;
+            }
+            
+            #header-box-container {
+                
+                position: relative;
+                height: 82px;
+                width: 100%;
+                background-color:#D1570D;
+                
+            }
+            
+            #header-box-content {
+                
+                position: relative;
+                height: 82px;
+                width: 900px;
+                background-color:transparent;
+                margin: 0px auto;
+                
+            }
+            
+            #header-box-content .title-text {
+                
+                position: absolute;
+                top:21px;
+                left:40px;
+                font-size: 35px;
+                color:white;
+                opacity: 0.8;
+                
+            }
+            
+            #header-box-content .description-1-text {
+                
+                position: absolute;
+                top:28px;
+                left:200px;
+                font-size: 14px;
+                color:white;
+                opacity: 0.5;
+                
+            }
+            
+            #header-box-content .description-2-text {
+                
+                position: absolute;
+                top:43px;
+                left:200px;
+                font-size: 14px;
+                color:white;
+                opacity: 0.8;
+                
+            }
+            
+            #header-box-content .download-button {
+                
+                position: absolute;
+                top:11px;
+                left:656px;
+                
+            }
+            
+            #preview-box-container {
+                
+                position: relative;
+                height: 260px;
+                width: 100%;
+                background-color:white;
+                
+            }
+            
+            #preview-box-container * {
+                
+                position: absolute;
+                
+            }
+            
+            #preview-box-container img {
+                
+                border-radius: 6px;
+                border:1px solid #FFFFFF;
+                
+            }
+            
+            #preview-box-container img:hover {
+                
+                border-radius: 6px;
+                border:1px solid #D1570D;
+                opacity: 0.8;
+                
+            }
+            
+            #preview-box-content {
+                
+                position: relative;
+                height: 100%;
+                width: 900px;
+                background-color:transparent;
+                margin: 0px auto;
+                
+            }
+            
+            #preview-box-content .info-text {
+                
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                text-align: center;
+                height: 30px;
+                width: 100%;
+                background-color:transparent;
+                margin: 0px;
+                opacity: 0.6;
+                font-size: 12px;
+                
+            }
+            
+            #info-box-container {
+                
+                position: relative;
+                height: auto;
+                width: 100%;
+                background-color:#EEEEEE;
+                
+            }
+            
+            #info-box-content {
+                
+                position: relative;
+                height: 100%;
+                width: 900px;
+                background-color:transparent;
+                margin: 0px auto;
+                
+            }
+            
+            #footer-box-container {
+                
+                position: relative;
+                height: auto;
+                width: 100%;
+                background-color:transparent;
+                padding: 20px 0px 120px 0px;
+                text-align: right;
+                
+            }
+            
+            #footer-box-content {
+                
+                position: relative;
+                height: 100%;
+                width: 900px;
+                background-color:transparent;
+                margin: 0px auto;
+                
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <div id="header-box-container">
+            <div id="header-box-content">
+                <div class="title-text">hittest.js</div>
+                <div class="description-1-text">A Javascript Library</div>
+                <div class="description-2-text">Transparan PNG resim üzerinde kesişim algılama</div>
+                <div class="download-button"><a href="https://sourceforge.net/projects/pnghittestjs/files/latest/download"><img src="image/asset/download.button.png" alt="PNG Collision Detection Javascript Download"/></a></div>
+            </div>
+        </div>
+        <div id="preview-box-container">
+            <div id="preview-box-content">
+                <a href="sample/index.html" style="top:15px;left:200px;"><img src="image/demo/png.hittest1.png" alt="PNG Hittest JS" /></a>
+                <div class="info-text">Önizleme için görselin üzerine tıklayın</div>
+            </div>
+        </div>
+        <div id="info-box-container">
+            <div id="info-box-content">
+                <img src="image/info/usage.png" alt="Progress Bar JS Usage" />
+            </div>
+        </div>
+        <div id="footer-box-container">
+            <div id="footer-box-content">
+                
+                <div style="position: absolute; top:0px; left:0px;"><a href="http://www.bugraozden.com/">Geliştirici</a> | Language: <a href="http://bug7a.github.io/hittest.js/">English</a></div>
+                
+                 <a href="https://twitter.com/share" class="twitter-share-button" data-via="bug7a" data-hashtags="">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                
+                <iframe src="http://ghbtns.com/github-btn.html?user=bug7a&repo=hittest.js&type=watch&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+
+                <iframe src="http://ghbtns.com/github-btn.html?user=bug7a&repo=hittest.js&type=fork&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+                
+                <!--<iframe src="http://ghbtns.com/github-btn.html?user=bug7a&repo=progressbar.js&type=follow&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>-->
+
+            </div>
+        </div>
+    </body>
+</html>
